@@ -1,16 +1,11 @@
 # React Event Scheduler App
-
-<!-- [![](https://img.shields.io/github/workflow/status/AhmedAlatawi/react-event-scheduler/Build%20and%20Test)](https://github.com/AhmedAlatawi/react-event-scheduler/actions/workflows/main.yml) -->
-[![Depfu](https://badges.depfu.com/badges/e9fb7e6c5e5b18f9b1dbf2c05736f034/status.svg)](https://depfu.com)
-[![Depfu](https://badges.depfu.com/badges/e9fb7e6c5e5b18f9b1dbf2c05736f034/overview.svg)](https://depfu.com/github/AhmedAlatawi/react-event-scheduler?project_id=35359)
-[![Depfu](https://badges.depfu.com/badges/e9fb7e6c5e5b18f9b1dbf2c05736f034/count.svg)](https://depfu.com/github/AhmedAlatawi/react-event-scheduler?project_id=35359)
-[![License: MIT](https://img.shields.io/github/license/AhmedAlatawi/react-event-scheduler)](https://github.com/AhmedAlatawi/react-event-scheduler/blob/master/LICENSE)
+[![License: MIT]
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ![](./images/react-event-pic.gif)
 
-Event Scheduler is a React app that allows users to create events. An event can be anything, such as a sport event, team meeting, party announcement, personal advertisement, etc. An event consists of title, start and end date/time, and description. Events can also be shared on FB or Twitter.
+Event Scheduler is a React app that allows users to create events. An event can be anything, such as a sport event, team meeting, party announcement, personal advertisement, etc. An event consists of title, start and end date/time, and description.
 All events are public by default (visible to everyone). They can also be private (only visible to you) by checking the private checkbox.
 
 ### [Demo](https://react-event-scheduler.vercel.app/) :movie_camera:
@@ -20,18 +15,10 @@ All events are public by default (visible to everyone). They can also be private
 ### Frontend
 
 - React (react hooks)
-- Typescript
-- Bootstrap/react-bootstrap
-- Styled components
-- Apollo client
-- JS cookie
 
 ### Backend
 
 - NodeJS with Express
-- Typescript
-- Apollo server express
-- JSON web token
 - MongoDB with mongoose
 
 ### This project implements Apollo advanced caching mechanisms for better performance (posting or fetching data from the serve is only performed when needed)
@@ -68,18 +55,3 @@ You will also see any lint errors in the console.
 - Search & pagination
 - Make events as private (only visible to creators)
 - Session expiry warning (displayed when being idle for 3 minutes after logging in)
-- Share events with family & friends on Facebook and Twitter
-
-### Coming soon
-
-- User profile
-- Admin tab & profile
-
-## Run unit tests
-
-coming soon...
-
-## Run E2E tests
-
-coming soon...
-
